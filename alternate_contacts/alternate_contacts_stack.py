@@ -77,7 +77,7 @@ class AlternateContactsStack(Stack):
                     eventName=["CreateManagedAccount"],
                     eventSource=["controltower.amazonaws.com"],
                     serviceEventDetails=dict(
-                        createAccountStatus=dict(
+                        createManagedAccountStatus=dict(
                             state=['SUCCEEDED']
                         )
                     )
